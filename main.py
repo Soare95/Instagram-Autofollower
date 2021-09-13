@@ -1,4 +1,4 @@
-from selenium import webdriver
+from selenium import webdrive
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.keys import Keys
 import time
@@ -65,20 +65,3 @@ insta_bot = InstaFollower(CHROME_WEB_PATH)
 insta_bot.login()
 insta_bot.find_followers()
 insta_bot.follow()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
