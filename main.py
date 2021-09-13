@@ -1,4 +1,4 @@
-from selenium import webdrive
+from selenium import webdriver
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.keys import Keys
 import time
